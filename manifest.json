@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery.js", "content_script.js" ],
+      "matches": [ "https://*.kilnhg.com/*" ]
+   } ],
+   "description": "Show hash in changeset list in Kiln",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLUXLt8aTAi0cEkEBcj+sI80eXsU8mqAcfGQGYrK1Q2HH9Txxtl0g5kM4K8UuBvai0oDXHGet/XcmisEDbvvXdjlPEf9y0p36OlwgXY9uymAzLZ9hPR0igZok2saVeFvH6NBuL1dSYuzZ+cLSJ3LJfrZfrH7yYBoD4kvD1+f7aLwIDAQAB",
+   "name": "Kiln Hash",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}
